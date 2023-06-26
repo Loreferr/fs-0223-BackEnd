@@ -1,0 +1,38 @@
+package it.epicode.be;
+
+public class Helloworld {
+
+public static void main (String[] args)
+		{
+		// Stampa a console  la frase
+		System.out.println("This is my first Epicode Java Project!");
+		System.out.println(multiply(5,10));
+		System.out.println(concat("i love you ", 3000));
+		
+		}
+
+
+
+public static int multiply(int x, int y){
+	
+	int result = x * y;
+	return result;
+}
+
+public static String concat(String x, int y) {
+	String result = x + y;
+	return result;
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
