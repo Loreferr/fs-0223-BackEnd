@@ -19,8 +19,8 @@ public class SIM {
 	
 	
 	public  void Data() {
-		System.out.println(Number);
-		System.out.println(Credit);
+		System.out.println(this.Number);
+		System.out.println(this.Credit);
 		System.out.println(List);
 		for(Calls Calls: List) {
 			System.out.println(Calls.chiamata + Calls.numero);
