@@ -1,5 +1,6 @@
 package Lezione9;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -40,7 +41,7 @@ public class Main {
 		for (Product elements : Boys) {
 			System.out.println(elements.id + " " + elements.name + " " + elements.Category + " " + elements.getPrice());
 		}
-		Lista2.add(new Order(1, "Completed", Baby, Cliente1));
+		Lista2.add(new Order(1, "Completed", LocalDate.of(2023, 9, 16), Baby, Cliente1));
 	}
 
 }
