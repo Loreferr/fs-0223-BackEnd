@@ -22,12 +22,12 @@ public class Main {
 			// System.out.println(utente);
 
 			// Modifico qualcosa dell'ogg letto
-			f.setLastname("Bianchi");
+			// f.setLastname("Bianchi");
 			// Salvo nel DB le modifiche fatte
-			db.modificaStudente(f);
+			// db.modificaStudente(f);
 
 			// rimuovo un ogg dal DB
-			// db.cancellaUtente(f);
+			db.cancellaUtente(f);
 
 			// leggo tutti gli ogg presenti nel db e li inserisco in una lista
 			// List<Utente> lista = db.leggiUtenti();

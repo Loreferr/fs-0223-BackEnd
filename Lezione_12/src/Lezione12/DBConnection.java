@@ -45,7 +45,7 @@ public class DBConnection {
 		String sql = "UPDATE school_students SET " + " id = '" + u.getId() + "', " + " name = '" + u.getName() + "', "
 				+ " lastname = '" + u.getLastname() + "', " + " gender = '" + u.getGender() + "' ," + " birthday = '"
 				+ u.getBirthday() + "', " + " avg = '" + u.getAvg() + "', " + " min_vote = '" + u.getMin_vote() + "', "
-				+ " max_vote = '" + u.getMax_vote() + "' " + " WHERE id = " + u.getMax_vote();
+				+ " max_vote = '" + u.getMax_vote() + "' " + " WHERE id = " + u.getId();
 		st.executeUpdate(sql);
 		System.out.println(u.getId() + " " + u.getName() + " " + u.getLastname() + " " + u.getGender() + " "
 				+ u.getBirthday() + " " + u.getAvg() + " " + u.getMin_vote() + " " + u.getMax_vote() + " updated!!!");
